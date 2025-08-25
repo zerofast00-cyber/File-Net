@@ -1,0 +1,10 @@
+#nama rule provider nya harus
+github.yaml
+
+
+
+payload:
+  # > Github
+  - DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DST-PORT,41641
